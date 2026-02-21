@@ -57,7 +57,7 @@ Follow these steps to set up the project on your local machine:
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/mdsaifulisl/react-firebase-auth-boilerplate.git](https://github.com/mdsaifulisl/react-firebase-auth-boilerplate.git)
-cd react-firebase-auth-boilerplate
 
-2. Install dependencies: `npm install`
-3. Start the development server: `npm run dev`
+2. cd react-firebase-auth-boilerplate
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
