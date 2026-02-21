@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 This is a secure and fully functional **User Authentication System** built with **React JS** and **Firebase**.  
 The application provides a seamless authentication experience, including **Email/Password registration**, **Social logins (Google & GitHub)**, and **advanced routing** using **React Context API**.  
 
@@ -15,7 +15,7 @@ The system is designed to handle real-world scenarios such as persistent login s
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Multi-Provider Authentication:** Secure login via Email/Password, Google, and GitHub.
 - **Dynamic Profile Management:** Automatically updates user `displayName` upon registration to ensure personalized user data.
@@ -29,7 +29,7 @@ The system is designed to handle real-world scenarios such as persistent login s
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React JS (Vite)** – Frontend library for building the UI.
 - **Firebase Authentication** – Identity platform for secure login and registration.
@@ -40,7 +40,7 @@ The system is designed to handle real-world scenarios such as persistent login s
 
 ---
 
-## 📂 Project Structure Highlights
+## Project Structure Highlights
 
 - **`AuthProvider.jsx`**: Central source for auth state; manages login, logout, and registration logic.
 - **`PrivateRoute.jsx`**: A wrapper component that checks for authentication before rendering private pages.
@@ -50,7 +50,7 @@ The system is designed to handle real-world scenarios such as persistent login s
 
 ---
 
-## 💻 Running Locally
+## Running Locally
 
 Follow these steps to set up the project on your local machine:
 
