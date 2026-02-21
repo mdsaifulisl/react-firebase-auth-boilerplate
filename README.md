@@ -1,16 +1,41 @@
-# React + Vite
+# Assignment : 06 - Firebase Authentication System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Name:** Md. Saiful Islam  
+**Email:** saiful01741899@gmail.com  
+**Live URL:** [https://glistening-raindrop-72194a.netlify.app/](https://glistening-raindrop-72194a.netlify.app/)  
+**Client Repository:** [আপনার গিটহাব লিংক এখানে বসান]
 
-Currently, two official plugins are available:
+### Project Description
+This is a secure and robust **User Authentication System** built with **React JS** and **Firebase**. The application demonstrates a complete authentication flow, including Email/Password registration, Social logins (Google & GitHub), and protected routing using the **React Context API**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Key Features:
+- **Email & Password Authentication:** Users can create a new account and log in securely.
+- **Social Login Integration:** One-click login/sign-up using **Google** and **GitHub** providers.
+- **Persistent Login State:** Users remain logged in even after refreshing the page (via Firebase `onAuthStateChanged`).
+- **Profile Management:** Automatic profile update to save the user's name during registration.
+- **Protected Routes:** Unauthorized users are redirected to the login page when trying to access the **Dashboard**.
+- **Public Route Protection:** Logged-in users are automatically redirected from Login/Register pages to the Home/Dashboard.
+- **Interactive 404 Page:** A custom "Page Not Found" route for handling invalid URLs.
+- **Dynamic Header:** Navigation bar changes dynamically based on the user's authentication status (Login/Logout/User Info).
+- **Security:** Handled sensitive errors like `auth/email-already-in-use` and `auth/invalid-email` with user-friendly messages.
+- **Responsive UI:** Built with **Bootstrap 5** and custom CSS for a seamless experience across all devices.
 
-## React Compiler
+#### Technologies Used:
+- **React JS** (Vite)
+- **Firebase Authentication** (Email/Pass, Google, GitHub)
+- **React Router Dom** (Routing & Protected Routes)
+- **Context API** (Global Authentication State Management)
+- **Bootstrap 5** (Styling & Layout)
+- **Netlify** (Deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Project Structure Highlights
+* **AuthProvider.jsx:** Centralized authentication logic using React Context.
+* **PrivateRoute.jsx:** Higher-Order Component (HOC) to secure private data.
+* **PublicRoute.jsx:** Prevents authenticated users from accessing login/register pages.
+* **Firebase.config.js:** Secure configuration for Firebase SDK.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### How to Run Locally
+1. Clone the repository: `git clone [repository-link]`
+2. Install dependencies: `npm install`
+3. Create a `.env` file and add your Firebase credentials.
+4. Start the development server: `npm run dev`
