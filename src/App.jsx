@@ -19,7 +19,7 @@ import About from "./pages/about/About";
 import Login from "./pages/login/Login"
 import Register from "./pages/register/Register"
 import Dashboard from "./pages/dashboard/Dashboard";
-import NotFound from "./pages/NotFound/NotFound.jsx";
+import NotFound from "./pages/notFound/NotFounds"; 
 
 // providers
 import { AuthContext } from "./providers/AuthProvider.jsx";
