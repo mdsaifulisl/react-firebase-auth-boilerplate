@@ -25,17 +25,19 @@ import NotFound from "./pages/notFound/NotFounds";
 import { AuthContext } from "./providers/AuthProvider.jsx";
 
 function App() {
-  // eslint-disable-next-line no-unused-vars
-  const { user, loading, logOut } = useContext(AuthContext);
 
+  
+// Testing purposes
 //  const user = {
-//     displayName: "John Doe",
-//     email: "john@example.com",
+//     displayName: "Saiful Islam",
+//     email: "abc@gmail.com",
 //     photoURL: null,
 //     providerData: [{ providerId: 'google.com' }] 
 //   };
+ // const user = null;
 
-  // const user = null;
+
+  const { user, logOut } = useContext(AuthContext);
 
   const handleLogout = () => {
     logOut()

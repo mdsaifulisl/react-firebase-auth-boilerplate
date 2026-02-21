@@ -12,7 +12,7 @@ const Login = () => {
     password: ""
   });
 
-  // ২. useContext এর ভেতরে AuthContext দিতে হবে
+ 
   const { signIn, signInWithGoogle, signInWithGithub } = useContext(AuthContext);
 
   const handleLogin = (e) => {
@@ -31,14 +31,14 @@ const Login = () => {
       });
   };
 
-  // গুগল লগইন হ্যান্ডলার
+
   const handleGoogleLogin = () => {
     signInWithGoogle()
       .then(() => navigate("/dashboard"))
       .catch(err => setError(err.message));
   };
 
-  // গিটহাব লগইন হ্যান্ডলার
+
   const handleGithubLogin = () => {
     signInWithGithub()
       .then(() => navigate("/dashboard"))

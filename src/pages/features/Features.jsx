@@ -45,7 +45,6 @@ const Features = () => {
     <div className="features-wrapper py-5" style={{ backgroundColor: '#f8fafc' }}>
       <div className="container py-5">
         
-        {/* Header Section */}
         <div className="text-center mb-5 mx-auto" style={{ maxWidth: '800px' }}>
           <span className="badge px-3 py-2 rounded-pill mb-3" style={{ backgroundColor: '#eef2ff', color: 'var(--primary-color)', fontSize: '14px' }}>
             Core Capabilities
@@ -58,7 +57,7 @@ const Features = () => {
           </p>
         </div>
 
-        {/* Features Grid */}
+        
         <div className="row g-4">
           {featuresList.map((feature, index) => (
             <div className="col-lg-4 col-md-6" key={index}>
@@ -78,7 +77,7 @@ const Features = () => {
           ))}
         </div>
 
-        {/* Bottom CTA Box */}
+        
         <div className="mt-5 p-5 rounded-5 text-center text-white shadow-lg" style={{ background: 'linear-gradient(135deg, var(--primary-color) 0%, #4f46e5 100%)' }}>
           <h2 className="fw-bold mb-3">Ready to experience these features?</h2>
           <p className="mb-4 opacity-75">এখনই একটি ফ্রি অ্যাকাউন্ট তৈরি করে আমাদের সিস্টেমটি পরীক্ষা করুন।</p>

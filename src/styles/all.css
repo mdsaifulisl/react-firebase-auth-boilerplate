@@ -1,4 +1,4 @@
-/* Navbar Link Effects */
+
 .navbar-nav .nav-link {
   color: var(--text-dark) !important;
   transition: 0.3s;
@@ -9,7 +9,6 @@
   color: var(--primary-color) !important;
 }
 
-/* Active Link Underline */
 @media (min-width: 992px) {
   .navbar-nav .nav-link.active {
     position: relative;

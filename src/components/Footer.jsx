@@ -11,7 +11,7 @@ const Footer = () => {
     >
       <div className="container">
         <div className="row g-4 justify-content-between">
-          {/* Brand Section */}
+          
           <div className="col-lg-4 col-md-6">
             <h3
               className="fw-bold mb-4"
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
+          
           <div className="col-lg-2 col-md-6">
             <h5 className="fw-bold mb-4">Quick Links</h5>
             <ul className="list-unstyled">
@@ -79,7 +79,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Support Section */}
           <div className="col-lg-2 col-md-6">
             <h5 className="fw-bold mb-4">Support</h5>
             <ul className="list-unstyled">
@@ -111,7 +110,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter / Contact Section */}
+        
           <div className="col-lg-3 col-md-6">
             <h5 className="fw-bold mb-4">Join Our Journey</h5>
             <p className="opacity-75 small mb-4">

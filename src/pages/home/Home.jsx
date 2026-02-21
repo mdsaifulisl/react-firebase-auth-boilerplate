@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = ({ user }) => {
   return (
     <div className="home-wrapper">
-      {/* 1. Hero Section */}
+      {/* Hero */}
       <section
         className="hero-section py-5 d-flex align-items-center"
         style={{
@@ -69,8 +69,7 @@ const Home = ({ user }) => {
           )}
         </div>
       </section>
-
-      {/* 2. Features Section (Using Box & Icons) */}
+      {/* Features */}
       <section className="features-section py-5 bg-white">
         <div className="container py-5">
           <div className="row g-4">
@@ -116,7 +115,7 @@ const Home = ({ user }) => {
         </div>
       </section>
 
-      {/* 3. Stats Section */}
+      {/* Stats */}
       <section className="py-5" style={{ backgroundColor: "#1e293b" }}>
         <div className="container py-4 text-center text-white">
           <div className="row g-4">
@@ -156,8 +155,7 @@ const Home = ({ user }) => {
           </div>
         </div>
       </section>
-
-      {/* 4. About Section (Box Layout) */}
+     {/* Why Security Matters   */}
       <section className="py-5 bg-light">
         <div className="container py-5">
           <div className="row align-items-center g-5">
@@ -201,7 +199,6 @@ const Home = ({ user }) => {
         </div>
       </section>
 
-      {/* 5. CTA Section */}
       <section className="py-5 mb-5">
         <div
           className="container py-5 rounded-5 text-center shadow-xl text-white"
