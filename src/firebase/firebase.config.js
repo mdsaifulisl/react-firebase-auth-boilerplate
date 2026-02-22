@@ -22,4 +22,3 @@ const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 
-// my file path src/firebase/firebase.config.js এখন করনিয় কি
